@@ -1,0 +1,54 @@
+.oPerson {
+  padding: 20px 40px;
+  font-size: 50px;
+}
+.xPerson {
+  padding: 20px 42.5px;
+  font-size: 50px;
+}
+.Normal {
+  padding: 58.5px;
+}
+.winsHeading{
+  margin: 100px;
+}
+
+@media (max-width: 950px) {
+  .mainDiv {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .oPerson {
+    padding: 20px 40px;
+    font-size: 50px;
+  }
+  .xPerson {
+    padding: 20px 42.5px;
+    font-size: 50px;
+  }
+  .Normal {
+    padding: 58.5px;
+  }
+}
+@media (max-width: 550px) {
+  .mainDiv{
+    margin-top: 0px;
+  }
+  .oPerson {
+    padding: 10px 30.5px;
+    font-size: 40px;
+  }
+  .xPerson {
+    padding: 10px 32.5px;
+    font-size: 40px;
+  }
+  .Normal {
+    padding: 45.3px;
+  }
+  .winsHeading{
+    margin: 40px 0px;
+  }
+  .winsHeading h1{
+    font-size: 20px;
+  }
+}
